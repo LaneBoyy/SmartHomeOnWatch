@@ -1,6 +1,7 @@
-package ru.laneboy.smarthomeonwatch
+package ru.laneboy.smarthomeonwatch.presentation
 
 import android.app.Activity
+import android.content.Intent
 import android.os.Bundle
 import ru.laneboy.smarthomeonwatch.databinding.ActivityBoxesBinding
 

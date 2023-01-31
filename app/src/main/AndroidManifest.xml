@@ -24,19 +24,29 @@
             android:value="true" />
 
         <activity
-            android:name=".BoxesActivity"
+            android:name=".LightActivity"
             android:exported="true"
-            android:label="@string/title_activity_boxes">
+            android:label="@string/title_activity_light">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
-            android:name=".SignInActivity"
+            android:name=".presentation.DevicesActivity"
             android:exported="true"
-            android:label="@string/title_activity_sign_in">
-
-        </activity>
+            android:label="@string/title_activity_devises"></activity>
         <activity
-            android:name=".SplashScreenActivity"
+            android:name=".presentation.BoxesActivity"
+            android:exported="true"
+            android:label="@string/title_activity_boxes"></activity>
+        <activity
+            android:name=".presentation.SignInActivity"
+            android:exported="true"
+            android:label="@string/title_activity_sign_in"></activity>
+        <activity
+            android:name=".presentation.SplashScreenActivity"
             android:exported="true"
             android:theme="@android:style/Theme.DeviceDefault.NoActionBar">
             <intent-filter>

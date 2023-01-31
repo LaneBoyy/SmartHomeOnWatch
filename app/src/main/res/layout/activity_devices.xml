@@ -4,26 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="@dimen/box_inset_layout_padding"
     android:background="@color/grey_light"
-    tools:context=".presentation.BoxesActivity"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".presentation.DevicesActivity"
     tools:deviceIds="wear">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:padding="@dimen/inner_frame_layout_padding"
         app:layout_boxedEdges="all">
 
         <TextView
-            android:id="@+id/tv_rooms"
+            android:id="@+id/text"
             android:layout_width="match_parent"
-            android:textColor="@color/red_dark"
-            android:textStyle="bold"
-            android:textSize="16sp"
-            android:gravity="center_horizontal"
             android:layout_height="wrap_content"
-            android:text="@string/text_rooms" />
+            android:gravity="center_horizontal"
+            android:text="@string/text_devices"
+            android:textColor="@color/red_dark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <View
             android:layout_width="match_parent"
@@ -31,12 +32,12 @@
             android:background="@color/red_dark" />
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rv_boxes_list"
+            android:id="@+id/rv_devices_list"
             android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_marginTop="5dp"
             app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-            tools:listitem="@layout/box_item"
-            android:layout_height="match_parent"/>
+            tools:listitem="@layout/box_item" />
 
     </LinearLayout>
 </androidx.wear.widget.BoxInsetLayout>

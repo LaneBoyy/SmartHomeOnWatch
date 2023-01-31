@@ -11,4 +11,5 @@
     <string name="title_activity_boxes">BoxesActivity</string>
     <string name="toast_sign_in">Оба поля должны быть заполненными</string>
     <string name="toast_invalid_email">E-mail введен некорректно</string>
+    <string name="text_rooms">Rooms</string>
 </resources>

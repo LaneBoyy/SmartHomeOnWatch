@@ -33,6 +33,7 @@ class SignInActivity : Activity() {
             if (password.isNotEmpty()) {
                 val intent = Intent(this, BoxesActivity::class.java)
                 startActivity(intent)
+                finish()
             } else {
                 Toast.makeText(this, getString(R.string.toast_sign_in), Toast.LENGTH_SHORT)
                     .show()

@@ -1,4 +1,4 @@
-package ru.laneboy.smarthomeonwatch.presentation
+package ru.laneboy.smarthomeonwatch.presentation.activities
 
 import android.app.Activity
 import android.content.Intent

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/grey_light"
     android:padding="@dimen/box_inset_layout_padding"
-    tools:context=".presentation.DevicesActivity"
+    tools:context=".presentation.activities.DevicesActivity"
     tools:deviceIds="wear">
 
     <LinearLayout

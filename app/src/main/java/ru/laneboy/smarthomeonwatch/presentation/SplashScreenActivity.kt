@@ -8,6 +8,7 @@ import android.content.Intent
 import android.os.Bundle
 import ru.laneboy.smarthomeonwatch.R
 import ru.laneboy.smarthomeonwatch.databinding.ActivitySplashScreenBinding
+import ru.laneboy.smarthomeonwatch.presentation.activities.SignInActivity
 
 class SplashScreenActivity : Activity() {
 

@@ -34,15 +34,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".presentation.DevicesActivity"
+            android:name=".presentation.activities.DevicesActivity"
             android:exported="true"
             android:label="@string/title_activity_devises"></activity>
         <activity
-            android:name=".presentation.BoxesActivity"
+            android:name=".presentation.activities.BoxesActivity"
             android:exported="true"
             android:label="@string/title_activity_boxes"></activity>
         <activity
-            android:name=".presentation.SignInActivity"
+            android:name=".presentation.activities.SignInActivity"
             android:exported="true"
             android:label="@string/title_activity_sign_in"></activity>
         <activity

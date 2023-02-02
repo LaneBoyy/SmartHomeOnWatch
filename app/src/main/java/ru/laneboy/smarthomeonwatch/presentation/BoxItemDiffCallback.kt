@@ -1,6 +1,5 @@
-package ru.laneboy.smarthomeonwatch
+package ru.laneboy.smarthomeonwatch.presentation
 
-import android.annotation.SuppressLint
 import androidx.recyclerview.widget.DiffUtil
 import ru.laneboy.smarthomeonwatch.domain.BoxItem
 

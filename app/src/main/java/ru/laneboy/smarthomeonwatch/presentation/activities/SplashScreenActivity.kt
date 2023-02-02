@@ -1,4 +1,4 @@
-package ru.laneboy.smarthomeonwatch.presentation
+package ru.laneboy.smarthomeonwatch.presentation.activities
 
 import android.animation.Animator
 import android.animation.AnimatorInflater
@@ -8,7 +8,6 @@ import android.content.Intent
 import android.os.Bundle
 import ru.laneboy.smarthomeonwatch.R
 import ru.laneboy.smarthomeonwatch.databinding.ActivitySplashScreenBinding
-import ru.laneboy.smarthomeonwatch.presentation.activities.SignInActivity
 
 class SplashScreenActivity : Activity() {
 

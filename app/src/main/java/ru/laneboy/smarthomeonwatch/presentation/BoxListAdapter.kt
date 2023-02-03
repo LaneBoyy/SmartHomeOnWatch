@@ -1,5 +1,6 @@
 package ru.laneboy.smarthomeonwatch.presentation
 
+import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.graphics.drawable.toDrawable
@@ -7,7 +8,7 @@ import androidx.recyclerview.widget.ListAdapter
 import ru.laneboy.smarthomeonwatch.R
 import ru.laneboy.smarthomeonwatch.domain.BoxItem
 
-class BoxListAdapter : ListAdapter<BoxItem, BoxItemViewHolder>(BoxItemDiffCallback()) {
+class BoxListAdapter() : ListAdapter<BoxItem, BoxItemViewHolder>(BoxItemDiffCallback()) {
 
     var onBoxItemClickListener: ((BoxItem) -> Unit)? = null
 
@@ -21,7 +22,7 @@ class BoxListAdapter : ListAdapter<BoxItem, BoxItemViewHolder>(BoxItemDiffCallba
         val boxItem = getItem(position)
         with(holder) {
             tvBoxName.text = boxItem.name
-            imBoxImage.setImageDrawable(boxItem.image.toDrawable())
+            imBoxImage.setImageResource(boxItem.image)
             view.setOnClickListener {
                 onBoxItemClickListener?.invoke(boxItem)
             }

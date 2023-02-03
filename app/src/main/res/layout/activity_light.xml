@@ -58,6 +58,7 @@
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_minus"
                 android:layout_width="30dp"
+                android:drawableStart="@drawable/ic_round_remove_24"
                 android:layout_height="30dp"
                 android:background="@drawable/button_background_round_minus"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -68,6 +69,7 @@
                 android:id="@+id/btn_plus"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
+                android:drawableStart="@drawable/ic_add"
                 android:background="@drawable/button_background_round_plus"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

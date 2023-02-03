@@ -18,7 +18,6 @@ class SplashScreenActivity : Activity() {
 
         binding = ActivitySplashScreenBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         startAnimation()
     }
 
